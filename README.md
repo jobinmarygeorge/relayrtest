@@ -1,5 +1,12 @@
 # relayrtest
 
+Software versions
+*****************
+minikube version: v1.14.0
+helm version    : v3.4.1
+kubectl version : v1.19.2 [server]
+kubectl version : v1.18.6 [client]
+
 create the helm chart with help pf create command of helm
 **************************************************
 
@@ -33,10 +40,10 @@ create the data basesetails save it secrets file in followoing format
 
 mariadb:
     auth:
-        database: testing
-        password: jobin
-        username: jobin
-        rootPassword: tester
+        database: <database>
+        password: <password >
+        username: <username>
+        rootPassword: <rootpassword>
 
 once saved generate the pgp key. [which should be installed plugin to be installed ]
 
