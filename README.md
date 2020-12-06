@@ -71,5 +71,5 @@ Running the appplication
 2. encrypt the secrets
 3. check the encrypted values
 4. run in debug --dry run mode to check the whole structure
-   helm secrets install appname . -f ./helm_vars/secrets.yaml -f values.yaml  --dry-run --debug
+  helm secrets install appname . -f ./helm_vars/secrets.yaml -f values.yaml  --dry-run --debug
    appname= relayr
