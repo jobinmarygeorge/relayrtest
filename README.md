@@ -73,3 +73,15 @@ Running the appplication
 4. run in debug --dry run mode to check the whole structure
   helm secrets install appname . -f ./helm_vars/secrets.yaml -f values.yaml  --dry-run --debug
    appname= relayr
+
+
+Accesing the application
+************************
+
+1. run minikube 
+2. access the with http://minikubeip:nodeport
+3. create table for database [table name alredy given as hello ]
+  http://minikubeip:nodeport/create_table
+
+4. access  http://minikubeip:nodeport/login to add the string to the database table
+5. access the data from database with http://minikubeip:nodeport/temp
