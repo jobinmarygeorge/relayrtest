@@ -74,6 +74,11 @@ Running the appplication
   helm secrets install appname . -f ./helm_vars/secrets.yaml -f values.yaml  --dry-run --debug
    appname= relayr
 
+Creating presistant volume 
+**************************
+1. create mysql persistant volume for making the database persistant 
+  kubectl apply -f pvcmysql.yaml
+
 
 Accesing the application
 ************************

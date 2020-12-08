@@ -84,3 +84,6 @@ mysql:
     enabled: true
     accessMode: ReadWriteOnce
     size: 8Gi
+    existingClaim: mysql-pvc
+  volumePermissions:
+    enabled: true

@@ -11,7 +11,6 @@ app.config['MYSQL_HOST'] = os.environ.get("RELAYR_MYSQL_SERVICE_HOST")
 app.config['MYSQL_USER'] = os.environ.get("MYSQLDB_USER")
 app.config['MYSQL_PASSWORD'] = os.environ.get("MYSQLDB_PASSWORD")
 app.config['MYSQL_DB'] = os.environ.get("MYSQLDB_DATABASE")
-app.config['MYSQL_PORT'] = os.environ.get("RELAYR_MYSQL_SERVICE_PORT")
 mysql = MySQL(app)
 
 @app.route('/')
