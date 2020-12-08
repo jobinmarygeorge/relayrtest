@@ -77,7 +77,7 @@ Running the appplication
 Creating presistant volume 
 **************************
 1. create mysql persistant volume for making the database persistant 
-  kubectl apply -f pvcmysql.yaml
+   kubectl apply -f pvcmysql.yaml [file is located outside the helm charts repo]
 
 
 Accesing the application
